@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cy:open": "cypress open --project frontend"
+    "cy:open": "cypress open --project frontend",
+    "cy:open:subfolder": "cd frontend; cypress open"
   },
   "keywords": [],
   "author": "",
